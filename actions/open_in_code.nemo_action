@@ -1,0 +1,17 @@
+[Nemo Action]
+
+Active=true
+
+Name=Open in Visual Studio Code
+Name[pt_BR]=Abrir no Visual Studio Code
+
+Comment=Open directory in Visual Studio Code
+Comment[pt_BR]=Abre o diretório no Visual Studio Code
+
+Exec=code %P
+Icon-Name=code
+Selection=none
+Extensions=any;
+Quote=double
+Dependencies=code;
+EscapeSpaces=false
